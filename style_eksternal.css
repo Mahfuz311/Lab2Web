@@ -1,0 +1,45 @@
+nav {
+    background: #20A759;
+    color: #fff;
+    padding: 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav .active,
+nav a:hover {
+    background: #0B6B3A;
+}
+
+/* ID Selector */
+#intro {
+    background: #418fb1;
+    border: 1px solid #099249;
+    min-height: 100px;
+    padding: 10px;
+}
+
+#intro h1 {
+  color: blue;              /* warna teks biru */
+  font-size: 30px;          /* ukuran font */
+  text-align: center;       /* posisi teks di tengah */
+  background-color: yellow; /* warna latar belakang */
+  padding: 10px;            /* jarak dalam elemen */
+}
+
+
+/* Class Selector */
+.button {
+    padding: 15px 20px;
+    background: #bebcbd;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: #E42A42;
+}
